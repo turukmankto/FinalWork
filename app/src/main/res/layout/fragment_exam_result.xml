@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ExamResultFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:text="Поздравляем! Билет сдан!" />
+        <ImageView
+            android:id="@+id/imageResult"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:layout_margin="24dp"
+            android:src="@drawable/like" />
+
+        <Button
+            android:id="@+id/repeatButton"
+            android:layout_gravity="center"
+            android:text="Заново"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_margin="8dp"
+            android:layout_width="280dp"
+            android:layout_height="48dp"/>
+
+        <Button
+            android:id="@+id/statisticsButton"
+            android:layout_gravity="center"
+            android:text="Мои ответы"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_margin="8dp"
+            android:layout_width="280dp"
+            android:layout_height="48dp"/>
+
+        <Button
+            android:id="@+id/toExamButton"
+            android:layout_gravity="center"
+            android:text="К билетам"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_margin="8dp"
+            android:layout_width="280dp"
+            android:layout_height="48dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

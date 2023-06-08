@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/helloText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добро пожаловать в Экзамен ПДД"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="32dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/welcomeImage"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/policeman"/>
+
+    <Button
+        android:id="@+id/mainButton1"
+        android:layout_width="280dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="124dp"
+        android:text="Начать подготовку"
+        android:textColor="@color/white"
+        android:onClick="msgfmain"
+        android:textSize="16dp" />
+
+</LinearLayout>

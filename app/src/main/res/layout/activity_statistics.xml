@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatisticsActivity"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Итоги прохождения билета"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="24dp"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:id="@+id/textQuestion1"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:text="Вопрос 1"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textQuestion2"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:text="Вопрос 2"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textQuestion3"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:text="Вопрос 3"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textQuestion4"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:text="Вопрос 4"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textQuestion5"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:text="Вопрос 5"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textQuestion6"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:text="Вопрос 6"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textQuestion7"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:text="Вопрос 7"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textQuestion8"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:text="Вопрос 8"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textQuestion9"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:text="Вопрос 9"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/textQuestion10"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:text="Вопрос 10"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <Button
+        android:id="@+id/toMain"
+        android:layout_width="248dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        android:onClick="SSS"
+        android:text="На главную" />
+
+</LinearLayout>
